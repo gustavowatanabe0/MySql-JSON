@@ -32,3 +32,9 @@ from countryinfo
 where json_extract(doc, '$.government.GovernmentForm') like '%Monarchy%'
 group by continente
 order by população;
+
+/*Questão 2: 
+Demonstre o uso de 3 funcões JSON disponível
+na documentação, utilizando diferentes chaves e valores do banco de dados world_x
+*/
+
